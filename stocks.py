@@ -7,7 +7,7 @@ import seaborn as sns
 sns.set(color_codes=True)
 
 # Using API
-stock = yf.download("KODK", start="2020-06-01", end=datetime.now())
+stock = yf.download("NVDIA", start="2020-06-01", end=datetime.now())
 df = pd.DataFrame(stock)
 
 excel_file = 'Stock.xlsx'
